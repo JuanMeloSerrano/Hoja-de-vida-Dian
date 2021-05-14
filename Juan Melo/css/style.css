@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-color:#585858;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hoja{
+    margin-top: 40px;
+    width: 950px;
+    height: 1200px;
+    background-color: #ffffff;
+}
+.div1{
+   
+    display: inline-block;
+    position: relative;
+    width: 780px;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 6px 6px rgb(0, 0, 0);
+    /*box-shadow: unset 0 20px 0 0 #ffffff;*/
+    margin-top:55px;
+	margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+	overflow: hidden;
+	padding: 0px;
+}
+.div1_escudo, .div1_cuadro2, .div1_cuadro3{
+    float: left;
+   /* border: red 2px solid;*/
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 120px;
+}
+.img_escudo{
+    width: 200px;
+    margin-top: 8px;
+    margin-right: 60px;
+}
+.div1_cuadro2,.div1_cuadro3{
+    padding-top: 24px;
+    margin-bottom: -7px;
+}
+.div1_cuadro2{
+    margin-right: 60px;
+}
+.parr1, .parr3{
+    font-size: 17px;
+    font-weight: 520;
+}
+.parr2{
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.parr4{
+    font-size: 13px;
+}
+.parr_entidad{
+    margin-left: -72px;
+    font-size: 9px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+.entidad_receptora_input{
+    border: 1px solid;
+    height:30px;
+}
+.div2, .div4{
+   
+    display: inline-block;
+    position: relative;
+    width: 780px;
+    height: 25px;
+    margin: 23px;
+}
+.caja_de_uno{
+    float: left;
+    border: 1px solid;
+    width: 22px;
+    margin-left: 1px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+}
+.uno{
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+}
+.caja_guion{
+    float: left;
+}
+.guion{
+    color: #008cff;
+    font-size: 40px;
+    margin-top: -13px;
+    margin-left: -1.5px;
+}
+.caja_parr{
+    float: left;
+    border: 1px solid;
+    background-color: #000000;
+    border-radius: 16px;
+    width: 220px;
+    height: 23px;
+    margin-left: -1.5px;
+}
+.parrafo{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.div3, .div5{
+    display: inline-block;
+    position: relative;
+    width: 780px;
+    height: 25px;
+    border: 2.2px solid;
+    margin-top: -5px;
+    height: 275px;
+    box-shadow: 6px 6px rgb(0, 0, 0);
+    background-color: rgb(242, 250, 252);
+}
+.cont_primer_apellido, .cont_nombres, .cont_segundo_apellido{
+    float: left;
+    border: 1px solid;
+    position: relative;
+    border-bottom: 1px solid #000000;
+    border-right:  1px solid #000000;
+    margin-left: -2px;
+    margin-top: -1px;
+    width: 259.3px;
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    height: 43px;
+    padding-top: 2px;
+    
+}
+.cont_nombres{
+    margin-left: -1px;  
+    border-right: 0px;
+    margin-right: 1px;
+}
+.cont_segundo_apellido{
+    margin-left: -1px;
+}
+.primer_apellido_input, .segundo_apellido_input, .nombres_input{
+    width: 250px;
+    height: 20px;
+    border: 0px;
+    margin-left: 5px;
+    margin-top: 8px;
+    background-color: rgb(242, 250, 252);
+}
+.nombre_text{
+    margin-left: 6px;
+}
+.div3_cuadro2{
+    float: left;
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    width: 780px;
+    height: 43px;
+    margin-top: -1px;
+    margin-left: -1px;
+    
+}
+.d_identidad, .sexo, .nacionalidad, .pais, .libreta_militar, .numero_dm, .fecha_lugar_nacimiento, .direccion_correspondencia{
+    float: left;
+    border: solid 1px;
+    width: 372px;
+    margin-top: -1px;
+    height: 43px;
+    margin-left: -1px;
+}
+.doc_id p, .sexo_text, .nacionalidad_text, .pais_text, .lib_milit_text, .fecha_l_n_text, .direc_corr_text, .edu_bas_med_text, .edu_sup_text{
+    float: left;
+    margin-top: 3px;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5px;
+}
+.formulario{
+    position: relative;
+    float: left;
+    width: 134px;
+    font-size: 13px;
+    margin-top: 7px;
+    
+}
+.No{
+    border: 1 px solid;
+    font-size: 12px;
+    float: left;
+    margin-top: -13px;
+    margin-left: 19px;
+}
+.No_input{
+    width: 187px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid;
+    background-color: rgb(242, 250, 252);
+}
+.sexo{
+    width: 87px;
+}
+.formulario_sexo, .formulario_nacio, .formulario_lm{
+    font-size: 13px;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+.nacionalidad{
+    width: 180px;
+    border-right: 0px;
+}
+.pais{
+    width: 138px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.pais_text{
+    margin-left: 10px;
+}
+.pais_input{
+    padding-bottom: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-width: 0px;
+    border-bottom: 1px solid;
+    float: left;
+    width: 125px;
+    margin-left: 4px;
+    background-color: rgb(242, 250, 252);
+}
+.formulario_lm{
+    width: 352px;
+    float: left;
+    margin-left: -7px;
+
+}
+.primera_clase, .segunda_clase{
+    margin-left: 19px;
+    margin-right: 19px;
+    
+}
+.libreta_militar{
+    width: 342px;
+    border-right: 0px;
+}
+.numero_dm{
+    width: 437px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.numero, .dm{
+    float: left;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: 16px;
+}
+.numero_input, .dm_input, .direc_corr_input, .p_input, .d_input, .m_input, .pa_input, .de_input, .mu_input, .te_input, .em_input{
+    width: 90px;
+    margin-left: 10px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid;
+    border-right: 0px;
+    background-color: rgb(242, 250, 252);
+}
+.numero_input{
+    width: 185px;
+}
+.dm{
+    margin-left: 22px;
+}
+.fecha_lugar_nacimiento{
+    float: left;
+    margin-top: -1px;
+}
+.dia, .mes, .ano, .ano1, .mes1{
+    float: left;
+    font-size: 12px;
+    margin-top: 11px;
+    margin-right: 8px;
+}
+.caja_dia, .caja_mes, .caja_ano{
+    float: left;
+    width: 30px;
+    height: 16px;
+    border: 1px solid;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+.fecha{
+    margin-top: 9px;
+    float: left;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 44px;
+}
+.c1{
+    border: solid 1px;
+    margin-top: 9px;
+    border-top: 0px;
+    margin-left: -1px;
+    float: left;
+    height: 7px;
+    width: 15px;
+}
+.caja_ano{
+    width: 60px;
+}
+.fecha_lugar_nacimiento{
+    width: 340px;
+    border: 0px;
+}
+.direccion_correspondencia{
+    width: 440px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.direc_corr_text{
+    margin-left: 19px;
+}
+.direc_corr_input{
+    float: left;
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 7px;
+}
+.pais_depto_munic{
+    float: left;
+    margin-left: -1px;
+    width: 338px;
+    height: 98px;
+     border: 1px solid;
+     border-top: 0px;
+
+}
+.cajas, .cajas1{
+    float: left;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+.p_input{
+    width: 170px;
+    margin-left: 55px;
+}
+.d_input{
+    width: 170px;
+    margin-left: 42px;
+}
+.m_input{
+    width: 170px;
+    margin-left: 19px;
+}
+.cajas1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 17px;
+    width: 422px;
+}
+.text_pdm{
+    float: left;
+}
+.caja1_1{
+    margin-bottom: 15px;
+}
+.pa_input{
+    width: 200px;
+    margin-right: 11px;
+}
+.de_input{
+    margin-left: -1px;
+    width: 117px;
+}
+.mu_input{
+    width: 205px;
+}
+.te_input{
+    width: 160px;
+    margin-right: 11px;
+}
+.em_input{
+    width: 119px;
+    margin-left: 5px; 
+}
+.div5{
+    height: 530px;
+}
+.edu_bas_med_text, .edu_sup_text{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.parrafo_marque1, .parrafo_marque2, .parr_dilig_text{
+    font-size: 11px;
+    float: left;
+    margin-bottom: 5px;
+}
+.caja_parrafo{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.edu_basica_media, .edu_superior_pp{
+    border: solid 4px;
+    margin-left: -1px;
+    height: 160px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(77, 77, 77);
+}
+.caja_caja{
+    width: 650px;
+    height: 75px;
+    border: solid 1.5px;
+    border-color:  rgb(77, 77, 77);
+    float: left;
+    margin-left: 62px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+.edu_b_text, .tit_ob_text, .caja_fg{
+    border: solid 1px;
+    font-size: 12px;
+    font-style: italic;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 2px;
+    padding-bottom: 5px;
+}
+.caja_caja_div1{
+    border: solid 1px;
+    float: left;
+    width: 278px;
+    height: 75px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.tit_ob_text, .caja_fg{
+    padding-right: 235px;
+}
+.edu_b_text{
+    background-color: rgb(217, 241, 246);
+    margin-right: 1px;
+    height: 14px;
+    margin-top: -0.5px;
+    padding-top: 2px;
+    border-radius: 15px 0px 0px 0px;
+    border-bottom: 0px;
+}
+.caja_pri, .caja_sec, .caja_med{
+    font-style: italic;
+    font-size: 10px;
+    float: left;
+    border: solid 1px;
+    border-top: 0px;
+    border-right: 0px;
+    height: 17px;
+    margin-top: -17px;
+    background-color: rgb(217, 241, 246);
+    padding-top: 2px;
+}
+.caja_pri{
+    padding-left: 37px;
+    border-left: 0px;
+    padding-right: 38px;
+}
+.caja_sec{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.caja_med{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.grados{
+    border: 1px solid;
+    height: 33px;
+    margin-top: -36px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.grados_text, .grado_11, .grado_1{
+    padding-top: 9px;
+    float: left;
+    font-size: 11px;
+    width: 24px;
+    border: solid 1px;
+    border-left: 0px;
+    height: 24px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.grado_11{
+    border-right: 0px;
+}
+.grado_1{
+    border-left: 0px;
+}
+.caja_fg{
+    margin-top: -18px;
+    padding-bottom: 7.5px;
+    height: 11px;
+    background-color: rgb(217, 241, 246);
+}
+.caja_ma{
+    float: left;
+    padding-left: 59px;
+    padding-top: 4px;
+}
+.ano1, .mes1{
+    margin-right: 22px;
+}
+.edu_superior_pp{
+    height: 290px;
+}
+.parr_dilig_text{
+    margin-left: 5px;
+}
+.fila_pp1, .fila_pp2{
+    float: left;
+    height: 18px;
+    width: 780px;
+    padding-left: 5px;
+}
+.iniciales, .iniciales_un{
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+    margin-right: 3px;
+}
+.ini_text1, .ini_text2, .ini_text_un{
+    float: left;
+    font-size: 11px;
+}
+.ini_text1{
+    margin-right: 82px;
+}
+.ini_text_un{
+    margin-left: -30px;
+}
+.iniciales_un{
+    margin-left: -50px;
+}
+.ini_text2{
+    margin-right: 31px;
+}
+.fila_princ{
+    float: left;
+    background-color: rgb(217, 241, 246);
+    border: solid 1px;
+    height: 40px;
+    width: 780px;
+}
+.modalidad_text, .academica_text, .n_semest_text, .aprob_text, .graduado_text, .nom_est_text, .tit_obt_text, .termi_text, .mes_term_text,
+ .ano_term_text, .n_tarj_text, .profe_text, .si_text, .no_text{
+    font-size: 11px;
+    font-style: italic;
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6{
+    border: solid 1px;
+    float: left;
+    height: 40px;
+}
+.si_text, .no_text{
+    border: solid 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 15px; 
+}
+.no_text{
+    border-right: 0px;
+}
+.caja1, .caja3, .caja5{
+    border: 0px;
+}
+.caja2, .caja4, .caja6{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.caja2{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.caja4{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+ 

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hoja de vida - Juan</title>
+</head>
+<body>
+    <center>
+        <!--Hoja-->
+        <div class="hoja">
+             <!--Divicion # 1-->
+            <div class="div1">
+                <div class="div1_escudo">
+                    <img class="img_escudo" src="img/Escudo Colombia.jpg" alt="Escudo de la republica de Colombia">
+                    </div>
+                <div class="div1_cuadro2">
+                    <p class="parr1">FORMATO ÚNICO</p>
+                    <p class="parr2">HOJA DE VIDA</p>
+                    <p class="parr3">Persona Natural</p>
+                    <p class="parr4">(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+                </div>
+                <div id="div_input1" class="div1_cuadro3">
+                    <p class="parr_entidad">ENTIDAD RECEPTORA</p>
+                    <input class="entidad_receptora_input" type="text">
+                </div>
+            </div>
+            <!--Divicion # 2-->
+            <div class="div2">
+                <div class="caja_de_uno">
+                    <p class="uno">1</p>
+                </div>
+                <div class="caja_guion">
+                    <p class="guion">-</p>
+                </div>
+                <div class="caja_parr">
+                    <p class="parrafo">   DATOS PERSONALES   </p>
+                </div>
+            </div>
+            <!--Divicion # 3-->
+            <div class="div3">
+                <div class="cont_primer_apellido"><p class="nombre_text"> APELLIDO </p><input class="primer_apellido_input" type="text"> 
+                </div>
+                <div class="cont_segundo_apellido"><p class="nombre_text">SEGUNDO APELLIDO( O DE CASADA)</p><input class="segundo_apellido_input" type="text">
+				</div>
+				<div class="cont_nombres"><p class="nombre_text">NOMBRRES</p><input class="nombres_input" type="text"> 
+                </div>
+               <div class="div3_cuadro2">
+                   <div class="d_identidad">
+                        <div class="doc_id"><p>DOCUMENTO DE IDENTIFICACIÓN</p><br>
+                        </div>
+                        <form action="index.html" method="get" class="formulario">
+                                
+                            <label for="cc">C.C</label>
+                            <input type="radio" name="tipo_id" id="cc">
+                                    
+                            <label for="ce">C.E</label>
+                            <input type="radio" name="tipo_id" id="ce">
+                                    
+                            <label for="pas">PAS</label>
+                            <input type="radio" name="tipo_id" id="pas">
+                            
+                            </form><br>
+                        <div class="No">No.<input class="No_input" type="number">
+                        </div>
+                    </div>
+                    <div class="sexo">
+                        <div class="sexo_text"><p>SEXO</p></div><br>
+                    
+
+                    <form action="index.html" method="get" class="formulario_sexo">
+                        
+                        <label for="f">F</label>
+                        <input type="radio" name="tipo_sexo" id="femenino">
+
+                        <label for="m">M</label>
+                        <input type="radio" name="tipo_sexo" id="masculino">
+
+                    </form>
+                    </div>
+
+                    <div class="nacionalidad">
+                        <div class="nacionalidad_text"><p>NACIONALIDAD</p></div><br>
+                        <form action="index.html" method="get" class="formulario_nacio">
+
+                        <label for="col">COL</label>
+                        <input type="radio" name="tipo_nacio" id="Colombia">
+
+                        <label for="m">EXTRANJERO</label>
+                        <input type="radio" name="tipo_nacio" id="extrangero">
+                        
+                        </form>
+                    </div>
+
+                    <div class="pais">
+
+                        <div class="pais_text"><p>PAÍS</p></div><br>
+                        <input class="pais_input" type="text">
+
+                     </div>
+                    </div>
+                    <div class="div3_cuadro3">
+                        <div class="libreta_militar">
+                            <div class="lib_milit_text"><p>LIBRETA MILITAR</p></div><br>
+
+                                <form action="index.html" method="get" class="formulario_lm">
+
+                                <label for="primera_clase">PRIMERA CLASE</label>
+                                <input type="radio" name="tipo_lm" id="primera_cls" class="primera_clase">
+        
+                                <label for="segunda_clase">SEGUNDA CLASE</label>
+                                <input type="radio" name="tipo_lm" id="segunda_cls" class="segunda_clase">
+                                
+                                </form>
+                        </div>
+
+                            <div class="numero_dm">
+
+                                <div class="numero">NÚMERO <input class="numero_input" type="number">
+                                </div>
+
+                                <div class="dm">D.M <input class="dm_input" type="text">
+                                </div>
+
+                            </div>
+
+                            <div class="fecha_lugar_nacimiento">
+                                <div class="fecha_l_n_text"><p>FECHA Y LUGAR DE NACIMIENTO</p></div><br>
+                                <div class="fecha"><p>FECHA</p>
+                                </div>
+
+                                <div class="dia"><p>DÍA</p>
+                                </div>
+                                <div class="caja_dia">
+                                    <div class="c1"></div>
+                                </div>
+
+                                <div class="mes"><p>MES</p>
+                                </div>
+                                <div class="caja_mes">
+                                    <div class="c1"></div>
+                                </div>
+
+                                <div class="ano"><p>AÑO</p>
+                                </div>
+                                <div class="caja_ano">
+                                    <div class="c1"></div>
+                                    <div class="c1"></div>
+                                    <div class="c1"></div>
+                                </div>
+
+                            </div>
+                            
+                            <div class="direccion_correspondencia">
+
+                                <div class="direc_corr_text"><p>DIRECCIÓN DE CORRESPONDENCIA</p></div><br>
+                                <div class="direc_corr"><input class="direc_corr_input" type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="pais_depto_munic">
+                                
+                                <div class="cajas">
+                                    <div class=" text_pdm">PAÍS <input class="p_input" type="text"></div>
+                                </div><br>
+
+                                <div class="cajas">
+                                    <div class=" text_pdm">DEPTO <input class="d_input" type="text"></div>
+                                </div><br>
+
+                                <div class="cajas">
+                                    <div class=" text_pdm">MUNICIPIO <input class="m_input" type="text"></div>
+                                </div><br>
+                            </div>
+
+                            <div class="ult_caja_dp">
+
+                                <div class="cajas1">
+                                    
+                                    <div class="caja1_1">
+                                        <div class="text_pdm">PAÍS <input class="pa_input" type="text"></div>
+                                        <div class="text_pdm">DEPTO <input class="de_input" type="text"></div>
+                                    </div><br>
+
+                                    <div class="caja1_1">
+                                        <div class="text_pdm">MUNICIPIO <input class="mu_input" type="text"></div>
+                                    </div><br>
+                                   
+                                    <div class="caja1_1">
+                                        <div class="text_pdm">TELÉFONO <input class="te_input" type="text"></div>
+                                        <div class="text_pdm">EMAIL <input class="em_input" type="text"></div>    
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Divicion 4-->
+
+                    <div class="div4">
+                        <div class="caja_de_uno">
+                            <p class="uno">2</p>
+                        </div>
+                        <div class="caja_guion">
+                            <p class="guion">-</p>
+                        </div>
+                        <div class="caja_parr">
+                            <p class="parrafo">   FORMACIÓN ACADÉMICA   </p>
+                        </div>
+                    </div>
+                    <!-- Divicion 5 -->
+
+                    <div class="div5" >
+                        <div class="edu_basica_media">
+                            <div class="edu_bas_med_text"><p>EDUCACIÓN BÁSICA Y MEDIA</p></div><br>
+                            <div class="caja_parrafo">
+                                <div class="parrafo_marque1"><p>MARQUE CON UNA X EL ÚLTMO GRADO APROBADO 
+                                    ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE<br></p></div>
+                                <div class="parrafo_marque2"><p>EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</p></div>
+                            </div><br>
+
+                            <div class="caja_caja">
+                                <div class="caja_caja_div1">
+                                     <div class="edu_b_text"><p>EDUCACIÓN BÁSICA</p></div><br>
+                                    
+                                     <div class="psm">
+                                         <div class="caja_pri">
+                                            <div class="pri_text"><p>PRIMARIA</p></div>
+                                         </div>
+                                         <div class="caja_sec">
+                                             <div class="sec_text"><p>SECUNDARIA</p></div>
+                                         </div>
+                                         <div class="caja_med">
+                                            <div class="med_text"><p>MEDIO</p></div>
+                                         </div><br>
+                                     </div><br>
+
+                                     <div class="grados">
+                                         <div class="grado_1"><p>1o.</p></div>
+                                         <div class="grados_text"><p>2o.</p></div>
+                                         <div class="grados_text"><p>3o.</p></div>
+                                         <div class="grados_text"><p>4o.</p></div>
+                                         <div class="grados_text"><p>5o.</p></div>
+                                         <div class="grados_text"><p>6o.</p></div>
+                                         <div class="grados_text"><p>7o.</p></div>
+                                         <div class="grados_text"><p>8o.</p></div>
+                                         <div class="grados_text"><p>9o.</p></div>
+                                         <div class="grados_text"><p>10o.</p></div>
+                                         <div class="grado_11"><p>11o.</p></div>
+                                     </div>
+                                </div>
+                                   <div class="caja_caja_div2">
+                                       <div class="tit_ob_text"><p>TÍTULO OBTENIDO:</p></div><br>
+
+                                       <div class="caja_fg">
+                                           <div class="caja_fg_text"><p>FECHA DE GRADO</p></div><br>
+                                       </div>
+
+                                       <div class="caja_ma">
+                                            <div class="mes1"><p>MES</p>
+                                            </div>
+                                            <div class="caja_mes">
+                                                <div class="c1"></div>
+                                            </div>
+            
+                                            <div class="ano1"><p>AÑO</p>
+                                            </div>
+                                            <div class="caja_ano">
+                                                <div class="c1"></div>
+                                                <div class="c1"></div>
+                                                <div class="c1"></div>
+                                            </div>
+                                       </div>
+                                   </div>
+                                    
+                            </div>
+                        </div>
+                        <div class="edu_superior_pp">
+                            <div class="edu_sup_text"><p>EDUCACIÓN SUPERIOR (PREGRADO Y POSTGRADO)</p></div><br>
+                            <div class="parr_dilig_text"><p>DIGILENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADEMICA ESCRITA:</p></div><br>
+                            
+                            <div class="fila_pp1">
+                                <div class="iniciales"><p>TC</p>
+                                </div>
+                                <div class="ini_text1"><p>(TÉCNICA),</p>
+                                </div>
+                                <div class="iniciales"><p>TL</p>
+                                </div>
+                                <div class="ini_text1"><p>(TECNOLÓGICA),</p>
+                                </div>
+                                <div class="iniciales"><p>TE</p>
+                                </div>
+                                <div class="ini_text1"><p>(TÉCNOLOGICA ESPECIALIZADA),</p>
+                                </div>
+                                <div class="iniciales_un"><p>UN</p>
+                                </div>
+                                <div class="ini_text_un"><p>(UNIVERSITARIA),</p>
+                                </div>
+                            </div><br>
+
+                            <div class="fila_pp2">
+                                <div class="iniciales"><p>ES</p>
+                                </div>
+                                <div class="ini_text2"><p>(ESPECIALIZACIÓN),</p>
+                                </div>
+                                <div class="iniciales"><p>MG</p>
+                                </div>
+                                <div class="ini_text2"><p>(MAESTRÍA O MAGISTER),</p>
+                                </div>
+                                <div class="iniciales"><p>DOC</p>
+                                </div>
+                                <div class="ini_text2"><p>(DOCTORADO O PHD),</p>
+                                </div>
+                            </div><br>
+
+                            <div class="parr_dilig_text"><p>RELACIONE AL FRENTE EL NÚMERO DE LA TARGETA PROFECIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).</p>
+                            </div><br>
+                            
+                            <div class="caja_datos">
+
+                                <div class="fila_princ">
+                                    <div class="caja1">
+                                        <div class="modalidad_text"><p>MODALIDAD</p></div><br>
+                                        <div class="academica_text"><p>ACADÉMICA</p></div>
+                                    </div>
+
+                                    <div class="caja2">
+                                        <div class="n_semest_text"><p>No.SEMESTRES</p></div><br>
+                                        <div class="aprob_text"><p>APROBADOS</p></div>
+                                    </div>
+
+                                    <div class="caja3">
+                                        <div class="graduado_text"><p>GRADUADO</p></div><br>
+                                        <div class="si_text"><p>SI</p></div>
+                                        <div class="no_text"><p>NO</p></div>
+                                    </div>
+
+                                    <div class="caja4">
+                                        <div class="nom_est_text"><p>NOMBRE DE LOS ESTUDIOS</p></div><br>
+                                        <div class="tit_obt_text"><p>O TÍTLO OBTENIDO</p></div>
+                                    </div>
+
+                                    <div class="caja5">
+                                        <div class=termi_text><p>TERMINACÓN</p></div><br>
+                                        <div class="mes_term_text"><p>MES</p></div>
+                                        <div class="ano_term_text"><p>AÑO</p></div>
+                                    </div>
+
+                                    <div class="caja6">
+                                        <div class="n_tarj_text"><p>No. DE TARGETA</p></div><br>
+                                        <div class="profe_text"><p>PROFESIÓN</p></div>
+                                    </div>
+
+                                </div><br>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+            
+
+            </div>
+        </div>
+
+    </center>
+</body>
+</html>
